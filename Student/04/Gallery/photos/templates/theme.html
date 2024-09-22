@@ -22,6 +22,11 @@
 
         <div class="bg-dark text-light">
             <a href="/" class="btn bg-success text-light m-5">Photo Gallery</a>
+            {% for photo in photos %}
+            
+            <a href="/photo/{{ photo.id }}" class="btn bg-success text-light m-5"><photo class="id"></photo></a>
+            
+            {% endfor %}
         </div>
 
     </div>

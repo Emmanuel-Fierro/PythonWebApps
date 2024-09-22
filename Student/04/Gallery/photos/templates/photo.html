@@ -20,6 +20,13 @@
 </p>
 <p>
     FILE PATH: {{ photo.file }}
+
+    
+{% for photo in photos %}
+            
+<a href="/photo/{{ photo.id }}" class="btn bg-success text-light m-5"><photo class="id"></photo></a>
+       
+{% endfor %}
 </p>
 
 
