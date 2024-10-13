@@ -21,7 +21,7 @@ def photo_list():
             name = f'Robnin'
         if i == 4:
             caption = f'Starfire: Super strong alien with lazers, but very gulible'
-            name = 'starfire'
+            name = f'Starfire'
         return dict(id=i, file=f, caption=caption, name=name)
 
     photos = Path('static/images').iterdir()
