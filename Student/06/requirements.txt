@@ -3,7 +3,7 @@ django
 dj-database-url
 django-crispy-forms
 crispy-bootstrap4
-# django-crispy-bootstrap4
+django-crispy-bootstrap4
 gunicorn
 psycopg2-binary
 pytz
